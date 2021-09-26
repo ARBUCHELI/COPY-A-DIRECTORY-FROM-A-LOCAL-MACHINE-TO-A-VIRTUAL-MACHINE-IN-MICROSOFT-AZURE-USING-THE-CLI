@@ -6,4 +6,6 @@
 az vm list-ip-addresses -g <RESOURCE-GROUP> -n <VIRTUAL-MACHINE-NAME> 
 ```
 
+* Copy the directory.
+
 ```scp -r <SOURCE-DIR> [ADMIN-NAME]@[PUBLIC-IP]:<TARGET-DIR> ```
